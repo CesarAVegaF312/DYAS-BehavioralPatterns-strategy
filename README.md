@@ -273,8 +273,6 @@ Entregue el enlace a su *fork* con el código y un informe breve (`INFORME.md` e
 **Autor:** César Augusto Vega Fernández
 **Curso:** Diseño y Arquitectura de Software, Universidad de La Sabana
 
-<!-- Pendiente de verificar antes de publicar: el caso del punto de venta parece venir del ejemplo del patrón Strategy de Oscar Blancarte, "Introducción a los patrones de diseño: un enfoque práctico". Si se confirma, reemplazar este comentario por la atribución. -->
-
 ## Licencia de uso
 
 Este material se distribuye bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
