@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: pos-autenticacion
+  # Conexión a MySQL. En Docker Compose los valores llegan por variables de entorno desde el .env.
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/pos}
+    username: ${DB_USUARIO:pos}
+    password: ${DB_CLAVE:}
+
+pos:
+  autenticacion:
+    # Nombre de la estrategia que se usa: memoria | bd | xml
+    estrategia: ${AUTH_ESTRATEGIA:memoria}
+    xml:
+      # Archivo de usuarios de la estrategia XML. Para usar uno externo: file:/ruta/usuarios.xml
+      ruta: ${XML_RUTA:classpath:usuarios.xml}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Usuarios del POS para la estrategia XML. Las claves están cifradas con BCrypt.
+       mlopez / 4567 (CAJERO) -->
+<usuarios>
+    <usuario nombre="mlopez" rol="CAJERO" clave="$2a$10$iwra7hiokfCiPAhO.8WDGuKNL4r9eevCTRQi/QGW7IYBJn6bsnBt6"/>
+</usuarios>
